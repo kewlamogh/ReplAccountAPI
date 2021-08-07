@@ -1,0 +1,18 @@
+<a href = "/" style = "text-decoration: none;">⬅ Back to Home</a>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@100&display=swap');
+  * {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  a {
+    color: purple;
+    font-weight: bolder;
+  }
+</style>
+{%- for line in lo %}
+ <h1>- <a href = "https://replit.com/@{{line}}">{{line}}</a></h1>
+{% endfor %}

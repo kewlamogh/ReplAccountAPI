@@ -1,0 +1,41 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@100&display=swap');
+  * {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-weight: lighter;
+    overflow: hidden;
+    text-align: center;
+  }
+  input, button {
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    text-align: left;
+  }
+  input {
+    width: 100px;
+  }
+  p, input {
+    font-size: 20px;
+  }
+  button {
+    cursor: pointer;
+  }
+  a {
+    text-decoration: none;
+    padding: 2px;
+    color: blue;
+  }
+  h1 {
+    padding-top: 300px;
+  }
+</style>
+<h1>ReplAccountAPI</h1>
+<h2>The easiest-to-use api to collect any repl user's data.</h2>
+<div style = "display: inline-flex;"><p>https://replaccountapi.amoghthecool.repl.co/@</p><input placeholder="Username" id = "i"> </input></div><button id = "go" onclick = "window.location.href = '/@'+document.getElementById('i').value.replace('@', '')">Go!</button>
+<p>Or, you can view the <a href = "/leaderboard">leaderboard for all time</a>.</p>
+
+<h1 id = "poopyface">Click <a href = "/module_src">here</a> for the source code for the module I made to get a repl-ers data.</h1>
+<script>
+  window.location.href = "#poopyface"
+</script>
