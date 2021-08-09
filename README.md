@@ -3,13 +3,13 @@ Replapi that allows you to access data for a user
 ## Run the flask webpage demo
 well, just literally download the repo xD
 then well just install these libraries
-```
+```sh
 pip install flask
 pip install bs4
 pip install requests
 ```
 then just run the pytho85230.n project
-```
+```sh
 python3 main.py
 ```
 then open up your browser
