@@ -3,11 +3,13 @@ Replapi that allows you to access data for a user
 ## Run the flask webpage demo
 well, just literally download the repo xD
 install the `os` python lib and `pip`.
-then just run the python project
+then just run the python project.
 ```sh
-python3 demo.py
+python3 demo_main.py
 ```
 then open up your browser and see the website!!
+>Note: The project automatically installs it's dependencies through `os.system` and `pip`
+
 ## Get the module
 i made a module that fetches the data.
 but i didn't publish it to pip yet.
