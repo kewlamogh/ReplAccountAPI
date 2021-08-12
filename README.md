@@ -1,18 +1,18 @@
 # ReplAccountAPI
 Replapi that allows you to access data for a user 
 ## Run the flask webpage demo
-well, just literally download the repo xD
+Well, just literally download the repo xD
 
-run these commands in your shell:
+Run these commands in your shell:
 ```sh
 pip install bs4
 pip install requests
 ```
-then just run the python project.
+Then just run the python project.
 ```sh
 python3 demo_main.py
 ```
-then open up your browser and see the website!!
+Then open up your browser and see the website (on)!!
 
 ## Get the module
 i made a module that fetches the data.
