@@ -2,6 +2,7 @@
 Replapi that allows you to access data for a user 
 ## Run the flask webpage demo
 well, just literally download the repo xD
+install the `os` python lib and `pip`.
 then just run the python project
 ```sh
 python3 demo.py
