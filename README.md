@@ -2,22 +2,16 @@
 Replapi that allows you to access data for a user 
 ## Run the flask webpage demo
 well, just literally download the repo xD
-then well just install these libraries
+then just run the python project
 ```sh
-pip install flask
-pip install bs4
-pip install requests
+python3 demo.py
 ```
-then just run the pytho85230.n project
-```sh
-python3 main.py
-```
-then open up your browser
+then open up your browser and see the website!!
 ## Get the module
 i made a module that fetches the data.
 but i didn't publish it to pip yet.
 so, you have to download it and import it locally.
-download the `repluser.py` file.
+download the `repluser.py` file and also download `jparser.py`.
 
 ## funcs
 A simple example demoing all the functions.
