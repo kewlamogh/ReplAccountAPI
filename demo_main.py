@@ -14,7 +14,7 @@ def home():
 
 @app.route("/module_src") # redirecting to source code
 def src():
-  return redirect("https://replit.com/@AmoghTheCool/ReplAccountAPI#repluser.py");
+  return redirect("https://github.com/kewlamogh/ReplAccountAPI");
 
 @app.route('/@<yeet>') # main user-data-collector-page
 def hello_world(yeet):

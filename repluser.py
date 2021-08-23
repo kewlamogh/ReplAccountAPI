@@ -38,7 +38,7 @@ class ReplAPI():
         except:
             return "No orginizations found."
     def getCycles(self):
-        return int(eval(self.soup.find(class_="jsx-3139500421").text)) 
+        return int(eval(self.soup.find(title = "cycles").text)) 
     def getIsHacker(self):
         try:
             return self.json["hacker"]
